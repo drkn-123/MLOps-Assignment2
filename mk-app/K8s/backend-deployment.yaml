@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: drkn1/backend:latest
+          image: drkn1/mk-app-backend:latest
           ports:
             - containerPort: 5000
           env:
